@@ -36,6 +36,7 @@ namespace Singleton
                 //return _CustomerManager;
                 lock (_lockObject)
                 {
+                    //_lockObject once nesnenin varligi kontrol edilmek icin kitlenir iki kişi veya daha fazla kişinin aynı anda nesne oluşturmaya calıştıgını varsayarak boyle bir onlem alınır
                     if (_CustomerManager==null)
                     {
                         _CustomerManager = new CustomerManager();
