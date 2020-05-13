@@ -1,0 +1,2 @@
+# Singleton
+Singleton Tasarım Kalıbı
